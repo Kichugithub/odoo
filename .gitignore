@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Byte-compiled / cache
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Odoo
+*.log
+*.db
+*.sqlite3
+filestore/
+data/
+*.pot
+*.po
+*.mo
+
+# Local config and secrets
+odoo.conf
+*.env
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Node
+node_modules/
+
+# Windows
+Thumbs.db
+desktop.ini
